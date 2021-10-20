@@ -18,6 +18,15 @@ h1,h2,h3,h4,ul,p {
   padding-left: 0px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+img {
+  display: block;
+}
+
 .list {
   list-style: none;
 }
@@ -27,16 +36,20 @@ h1,h2,h3,h4,ul,p {
 }
 
 .container {
-  margin-right: auto;
-  margin-left: auto;
-  width: 1600px;
-  padding-left: 215px;
-  padding-right: 215px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 /* ----------- header ------------- */
 
+.header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ECECEC;
 
+}
 
 .header-container {
   display: flex;
@@ -91,7 +104,7 @@ h1,h2,h3,h4,ul,p {
   color: var(--accent-color);
 }
 
-.current {
+.header-item.current {
   color: var(--accent-color)
 }
 
@@ -126,6 +139,12 @@ h1,h2,h3,h4,ul,p {
   
 }
 
+.container-hero{
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+}
+
 .hero-title {
   margin-top: 0px;
   margin-bottom: 30px;
@@ -149,6 +168,7 @@ h1,h2,h3,h4,ul,p {
   border: none;
   padding: 10px 32px;
 
+  
   font-family: Roboto;
   font-weight: 700;
   line-height: 1.87;
@@ -165,7 +185,7 @@ h1,h2,h3,h4,ul,p {
 
 .features-section {
   padding-top: 94px;
-  padding-bottom: 94px;
+  
 }
 
 .visually-hidden {
@@ -226,14 +246,18 @@ h1,h2,h3,h4,ul,p {
 
 /* -------Чем ми занимаемся------- */
 
-.employment {
-  padding-bottom: 94px;
-}
 
 .employment-list {
   display: flex;
-  justify-content: space-between;
+  margin-left: -30px;
+
 }
+
+.employment-item {
+  flex-basis: calc((100% - 3 * 30px) / 3);
+  margin-left: 30px;
+}
+
 
 .employment-title {
   font-weight: 700;
@@ -249,8 +273,7 @@ h1,h2,h3,h4,ul,p {
 
 .team {
   background-color: #F5F4FA;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  
 }
 
 .team-title {
@@ -361,15 +384,21 @@ h1,h2,h3,h4,ul,p {
 
 .portfolio-padding {
   padding: 20px 24px;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ECECEC;
+
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #ECECEC;
+
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #ECECEC;
 }
 
 
-
-.section-portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  
-}
 
 .button-list {
   display: flex;
@@ -398,7 +427,7 @@ h1,h2,h3,h4,ul,p {
   background-color: var(--accent-color);
 }
 
-.button-active {
+.portfolio-button.current {
   background-color: var(--accent-color);
   color: var(--fourth-text-color);
 }
