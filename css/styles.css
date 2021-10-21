@@ -63,6 +63,9 @@ img {
 }
 
 .header-logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -122,6 +125,9 @@ img {
 }
 
 .header-contact {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -183,10 +189,7 @@ img {
 
 /* ------Features--------- */
 
-.features-section {
-  padding-top: 94px;
-  
-}
+
 
 .visually-hidden {
   position: absolute;
@@ -246,6 +249,9 @@ img {
 
 /* -------Чем ми занимаемся------- */
 
+.employment {
+  padding-bottom: 94px;
+}
 
 .employment-list {
   display: flex;
@@ -294,6 +300,7 @@ img {
 .team-pading {
   padding-top: 30px;
   padding-bottom: 30px;
+  background: #FFFFFF;
 }
 
 .team-item {
@@ -320,12 +327,10 @@ img {
 
 .footer {
   background-color: #2f303a;
-}
-
-.footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 
 .footer-logo {
 
@@ -410,6 +415,7 @@ img {
   margin-right: 8px;
 }
 
+
 .portfolio-button {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -419,6 +425,8 @@ img {
   border: none;
   color: var(--second-text-color);
   background-color: #f5f4fa;
+
+  padding: 6px 22px;
 }
 
 .portfolio-button:hover,
